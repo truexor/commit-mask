@@ -64,13 +64,6 @@ This will generate commits for each day between `start` and `end`.
    * If the `noClear` flag is not set and the size of `commit.txt` exceeds 25KB(default), the file will be cleared to avoid any unnecessary bloating.
 
 
-This command generates commits for each day between `2023-01-01` and `2023-01-10`, with the following options:
-
-* The minimum number of commits per day is 2, and the maximum is 5.
-* A salt value of 20.
-* 50% chance of having commits on any given day.
-* The `commit.txt` file will not be cleared if it exceeds the size threshold.
-
 ### Notes
 
 * The tool uses `git` to make the commits, so make sure `git` is installed and accessible in your system's path.
